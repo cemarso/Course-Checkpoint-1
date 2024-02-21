@@ -1,0 +1,67 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.gridTwo-red {
+    background-color: red ;
+}
+
+.gridTwo-blue {
+    background-color: blue;
+}
+
+.gridTwo-yellow {
+    background-color: yellow ;
+}
+
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+}
+
+.gridThree-text {
+    background-color: greenyellow;
+}
+
+.gridThree-photo {
+    background-color: grey;
+}
+
+.gridThree-photo img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+}
+
+#gridFive-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#gridFive-2 img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgray;
+}
